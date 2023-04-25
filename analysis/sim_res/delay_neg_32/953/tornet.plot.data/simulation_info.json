@@ -1,0 +1,17 @@
+{
+  "net_scale": 0.0001,
+  "num_dir_authorities": 3,
+  "num_exit_circuits_ten_minutes": 150,
+  "num_hs_circuits_ten_minutes": 0,
+  "num_public_relays": 6746,
+  "num_sampled_relays": 4,
+  "num_tgen_exit_emulated_users": 75.05,
+  "num_tgen_exit_markov_clients": 75,
+  "num_tgen_exit_perf_clients": 100,
+  "num_tgen_exit_servers": 8,
+  "num_tgen_hs_emulated_users": 0.0,
+  "num_tgen_hs_markov_clients": 0,
+  "num_tgen_hs_perf_clients": 0,
+  "num_tgen_onionservice_servers": 0,
+  "tornettools_generate_seed": 953
+}

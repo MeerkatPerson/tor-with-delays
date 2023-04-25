@@ -1,0 +1,19 @@
+/* Arbitrarily send instructions for the next 32 cells. */
+const N_CELLS = 32;
+
+/*  Tell a hop to apply delays[i] when forwarding cell i;
+    send new instructions after N_CELLS cells have been sent    
+*/
+struct circdelay_negotiate {
+
+    /*  corresponding C values are generated as uint32_t, which is exactly what we want
+        (sampling from probability distr. returns uint32_t). 
+    */
+    u32 delays[N_CELLS];
+
+    /*  Include a seed as backup for when we run out of delays and haven't
+        received new instructions yet?
+    */
+    u32 seed; 
+
+};
